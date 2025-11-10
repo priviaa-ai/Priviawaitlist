@@ -1,9 +1,8 @@
-import React from 'react';
 import { motion } from 'motion/react';
 import { Linkedin, Mail } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { XIcon } from './XIcon';
-import logo from '/logo.png';
+import logo from 'figma:asset/8ee4bbe1cb36a197fea4680ddf907acaadc41c84.png';
 
 export function Footer() {
   const socialLinks = [

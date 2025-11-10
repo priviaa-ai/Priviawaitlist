@@ -1,7 +1,6 @@
-import React from 'react';
-import { motion } from 'motion/react';
+import { motion, useScroll, useTransform } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import logo from '/logo.png';
+import logo from 'figma:asset/8ee4bbe1cb36a197fea4680ddf907acaadc41c84.png';
 import { useEffect, useState } from 'react';
 
 export function Header() {
@@ -25,7 +24,7 @@ export function Header() {
     >
       <div className="max-w-7xl mx-auto">
         {/* Minimal header bar */}
-        <motion.div
+        <motion.div 
           className="relative backdrop-blur-[8px] bg-black/10 rounded-full border border-white/10 px-4 sm:px-6 py-3"
           animate={{
             boxShadow: isScrolled 
