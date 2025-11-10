@@ -10,7 +10,7 @@ export function Hero() {
   };
 
   return (
-    <section className="min-h-[85vh] md:min-h-screen flex items-center justify-center px-4 sm:px-6 pt-20 sm:pt-24 pb-12 md:pb-0 relative">
+    <section className="min-h-[85vh] md:min-h-[85vh] flex items-center justify-center px-4 sm:px-6 pt-20 sm:pt-24 pb-2 md:pb-3 relative">
       <div className="max-w-5xl mx-auto text-center">
         {/* "LAUNCHING SOON" Glowing Badge */}
         <motion.div

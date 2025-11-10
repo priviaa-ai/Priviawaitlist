@@ -175,7 +175,7 @@ export function WaitlistSection() {
   return (
     <section
       id="waitlist"
-      className="min-h-screen flex items-center justify-center px-4 sm:px-6 py-12 md:py-20"
+      className="min-h-screen flex items-center justify-center px-4 sm:px-6 py-2 md:py-3"
     >
       <motion.div
         initial={{ opacity: 0, y: 50 }}
