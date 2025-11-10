@@ -1,4 +1,3 @@
-import React from 'react';
 import { useEffect } from 'react';
 import { AnimatedBackground } from './components/AnimatedBackground';
 import { Header } from './components/Header';
@@ -43,6 +42,3 @@ export default function App() {
       <Hero />
       <WaitlistSection />
       <Footer />
-    </div>
-  );
-}
