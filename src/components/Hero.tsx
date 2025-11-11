@@ -70,7 +70,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
           className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed"
         >
-          Privia AI builds tools that make artificial intelligence transparent, reliable, and privacy-respecting — for both enterprises and individuals.
+          Privia AI builds tools that make artificial intelligence transparent, reliable, and privacy-respecting, for both enterprises and individuals.
         </motion.p>
 
         {/* CTA Button */}
