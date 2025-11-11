@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import logo from 'figma:asset/8ee4bbe1cb36a197fea4680ddf907acaadc41c84.png';
+import logo from '/logo.png';
 import { useEffect, useState } from 'react';
 
 export function Header() {
