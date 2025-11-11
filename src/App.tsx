@@ -4,7 +4,7 @@ import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { WaitlistSection } from './components/WaitlistSection';
 import { Footer } from './components/Footer';
-import priviaLogo from '/favicon.png';
+import priviaLogo from 'figma:asset/bb7404637bce66f11a9b95c82b900fbd122c7277.png';
 
 export default function App() {
   useEffect(() => {

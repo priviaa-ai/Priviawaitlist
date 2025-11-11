@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-// import logo from '/logo.png';
+import logo from 'figma:asset/8ee4bbe1cb36a197fea4680ddf907acaadc41c84.png';
 import { useEffect, useState } from 'react';
 
 export function Header() {
@@ -41,7 +41,7 @@ export function Header() {
             >
               <div className="w-24 h-9 sm:w-32 sm:h-12 transition-all duration-200 group-hover:scale-110 group-hover:drop-shadow-[0_0_15px_rgba(34,211,238,0.6)]">
                 <ImageWithFallback 
-                  src="/logo.png" 
+                  src={logo} 
                   alt="Privia AI Logo" 
                   className="w-full h-full object-contain"
                 />

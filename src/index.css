@@ -522,10 +522,6 @@
     bottom: 25%;
   }
 
-  .bottom-12 {
-    bottom: calc(var(--spacing) * 12);
-  }
-
   .bottom-\[20\%\] {
     bottom: 20%;
   }
@@ -602,10 +598,6 @@
     display: grid;
   }
 
-  .hidden {
-    display: none;
-  }
-
   .inline-block {
     display: inline-block;
   }
@@ -628,10 +620,6 @@
 
   .h-9 {
     height: calc(var(--spacing) * 9);
-  }
-
-  .h-10 {
-    height: calc(var(--spacing) * 10);
   }
 
   .h-12 {
@@ -686,10 +674,6 @@
     min-height: 100vh;
   }
 
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
-
   .w-2 {
     width: calc(var(--spacing) * 2);
   }
@@ -700,10 +684,6 @@
 
   .w-5 {
     width: calc(var(--spacing) * 5);
-  }
-
-  .w-6 {
-    width: calc(var(--spacing) * 6);
   }
 
   .w-9 {
@@ -790,10 +770,6 @@
 
   .items-center {
     align-items: center;
-  }
-
-  .items-start {
-    align-items: flex-start;
   }
 
   .justify-between {
@@ -991,10 +967,6 @@
     .bg-red-400\/5 {
       background-color: color-mix(in oklab, var(--color-red-400) 5%, transparent);
     }
-  }
-
-  .bg-white {
-    background-color: var(--color-white);
   }
 
   .bg-white\/5 {
@@ -1200,10 +1172,6 @@
 
   .object-contain {
     object-fit: contain;
-  }
-
-  .p-2 {
-    padding: calc(var(--spacing) * 2);
   }
 
   .p-8 {
@@ -1637,12 +1605,6 @@
   @media (width >= 48rem) {
     .md\:mb-0 {
       margin-bottom: calc(var(--spacing) * 0);
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:block {
-      display: block;
     }
   }
 

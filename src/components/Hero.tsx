@@ -70,7 +70,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
           className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed"
         >
-          Privia AI builds tools that make artificial intelligence transparent, reliable, and privacy-respecting, for both enterprises and individuals.
+          Privia AI builds tools that make artificial intelligence transparent, reliable, and privacy-respecting — for both enterprises and individuals.
         </motion.p>
 
         {/* CTA Button */}
@@ -117,26 +117,6 @@ export function Hero() {
           }}
         />
       </div>
-
-      {/* Scroll indicator - hidden on mobile */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5 }}
-        className="absolute bottom-12 left-1/2 -translate-x-1/2 hidden md:block"
-      >
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 2, repeat: Infinity }}
-          className="w-6 h-10 rounded-full border-2 border-white/30 flex items-start justify-center p-2"
-        >
-          <motion.div
-            animate={{ opacity: [0, 1, 0] }}
-            transition={{ duration: 2, repeat: Infinity }}
-            className="w-1 h-2 bg-white rounded-full"
-          />
-        </motion.div>
-      </motion.div>
     </section>
   );
 }
