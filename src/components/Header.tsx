@@ -55,7 +55,7 @@ export function Header() {
 
             {/* CTA Button */}
             <a
-              href="mailto:yuvrajbhatia.work@gmail.com"
+              href="mailto:support@priviaai.com"
               className="px-4 sm:px-5 py-2 text-xs sm:text-sm bg-[#112C3F]/80 hover:bg-[#112C3F] text-white rounded-full transition-all duration-200 hover:shadow-[0_0_20px_rgba(17,44,63,0.4)] whitespace-nowrap"
             >
               Contact Us
