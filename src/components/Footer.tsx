@@ -8,7 +8,7 @@ export function Footer() {
   const socialLinks = [
     { Icon: XIcon, href: 'https://x.com/PriviaAI', label: 'X (Twitter)' },
     { Icon: Linkedin, href: 'https://www.linkedin.com/company/privia-ai', label: 'LinkedIn' },
-    { Icon: Mail, href: 'mailto:yuvrajbhatia.work@gmail.com', label: 'Email' },
+    { Icon: Mail, href: 'mailto:support@priviaai.com', label: 'Email' },
   ];
 
   return (
