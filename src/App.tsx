@@ -4,7 +4,7 @@ import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { WaitlistSection } from './components/WaitlistSection';
 import { Footer } from './components/Footer';
-import faviconImage from 'figma:asset/ff2f754d6221800eca040629ac83a22336224a84.png';
+import faviconImage from '/favicon.png';
 
 export default function App() {
   useEffect(() => {
